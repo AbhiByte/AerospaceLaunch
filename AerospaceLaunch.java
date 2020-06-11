@@ -81,6 +81,7 @@ public class AerospaceLaunch {
 		}
 	}//sleep
 	public static double windLaunchpad (double windSpeed) {
+		//Determines if wind speeds are acceptable or not
 		if (windSpeed < 30)
 		{
 			System.out.println("Wind speed is within the acceptable range");
@@ -96,6 +97,7 @@ public class AerospaceLaunch {
 		return windSpeed;
 	}
 	public static boolean windShear (boolean upperLvlWindShear) {
+		//Asks user if wind shear in upper atmosphere is present
 		if (upperLvlWindShear == false)
 		{
 			System.out.println("Upper lvl wind shear does not pose threat to launch vehicle. Go for launch.");
@@ -107,6 +109,7 @@ public class AerospaceLaunch {
 		return upperLvlWindShear;
 	}
 	public static int cloudThickness (int cloudLayer, int temp) {
+		//Asks user for cloud thickness
 		if (cloudLayer < 1400 && temp > 0)
 		{
 			System.out.println("Conditions are go for launch");
@@ -119,6 +122,7 @@ public class AerospaceLaunch {
 		
 	}
 	public static double cumulusClouds (double cumulusDist) {
+		//Asks for distance to cumulus clouds and temp at top of cloud
 		if (cumulusDist <= 19)
 		{
 			System.out.println("DO NOT LAUNCH");
@@ -130,6 +134,7 @@ public class AerospaceLaunch {
 		return cumulusDist;
 	}
 	public static String finalCheck(String finalEval) {
+		//Final check if all conditions are met or not
 		if (finalEval.contentEquals("yes")) {
 			System.out.println("Continue on to trajectory calculator...");
 		}
@@ -144,6 +149,7 @@ public class AerospaceLaunch {
 	
 	//Trajectory method
 	public static double finalDisplacement (double velAtTop, double acceleration, double angle, double heightAtTop) {
+		//Determines trajectory of the rocket
 		double Viy = Math.sin(angle * (Math.PI / 180)) * velAtTop;
 		double time = (-1*Viy + Math.sqrt(Math.pow(Viy, 2)  - (4*0.5*acceleration*heightAtTop)))/(-1*acceleration);
 		double Vx = Math.cos(angle *(Math.PI / 180)) * velAtTop;
