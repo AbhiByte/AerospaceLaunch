@@ -1,3 +1,2 @@
-#                      ICS3U0 ISU Artifact
-#                      Launch GO NO-GO Evaluation  
+#ICS3U0 ISU Artifact
 My ICS3U0 ISU final project code
