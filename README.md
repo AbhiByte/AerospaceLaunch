@@ -52,24 +52,79 @@ Computer science is used in all aspects of rockets. Having the ability for compu
 * Trajectory and orbit calculations and corrections
 * Pretty much anything that can be automated, is, as this reduces error due to human intervention
 
-### Class Methods
+## The Software
 
-### Installation
+### CLass Methods
 
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
-```sh
-git clone https://github.com/your_username_/Project-Name.git
-```
-3. Install NPM packages
-```sh
-npm install
-```
-4. Enter your API in `config.js`
-```JS
-const API_KEY = 'ENTER YOUR API';
-```
+The launch parameter class methods allow the user to input mulitiple weather parameters into the system
+public static void welcome() {
 
+		//Code for welcome message and explanation of program to user
+		System.out.println("This is an official launch go no-go calculator");
+		sleep();
+		System.out.println("The following sequences will present parameters in accordance with S-301B launch weather criteria for the Falcon 9 ");
+		sleep();
+		System.out.println("It is your duty as launch director to accurately input and update data as provided by NOAA");
+		sleep();
+		System.out.println("Lets go!");
+	}//welcome
+	public static void sleep() {
+		try {
+		    Thread.sleep(2000);
+		} catch (InterruptedException ie) {
+		    Thread.currentThread().interrupt();
+		}
+	}//sleep
+	public static double windLaunchpad (double windSpeed) {
+		if (windSpeed < 30)
+		{
+			System.out.println("Wind speed is within the acceptable range");
+		}
+		else if (windSpeed == 30)
+		{
+			System.out.println("Wind speed is acceptable but not prefered. Wait 10 mins and try again.");
+		}
+		else
+		{
+			System.out.println("DO NOT LAUNCH. WAIT 15 MINS AND TRY AGAIN");
+		}
+		return windSpeed;
+	}
+	public static boolean windShear (boolean upperLvlWindShear) {
+		if (upperLvlWindShear == false)
+		{
+			System.out.println("Upper lvl wind shear does not pose threat to launch vehicle. Go for launch.");
+		}
+		else if (upperLvlWindShear == true)
+		{
+			System.out.println("Wind shear is present in the upper atmosphere. WAIT 30 MINS AND TRY AGAIN.");
+		}
+		return upperLvlWindShear;
+	}
+	public static int cloudThickness (int cloudLayer, int temp) {
+		if (cloudLayer < 1400 && temp > 0)
+		{
+			System.out.println("Conditions are go for launch");
+		}
+		else
+		{
+			System.out.println("CONDITIONS NOT MET. DO NOT LAUNCH");
+		}
+		return cloudLayer;
+		
+	}
+	public static double cumulusClouds (double cumulusDist) {
+		if (cumulusDist <= 19)
+		{
+			System.out.println("DO NOT LAUNCH");
+		}
+		else
+		{
+			System.out.println("Condition met. Go for launch.");
+		}
+		return cumulusDist;
+	}
+	public static String finalCheck(String finalEval) {
 
 
 <!-- USAGE EXAMPLES -->
