@@ -38,7 +38,7 @@
 
 This project aims to demonstrate the skills learned in ICS3U0 and explore how CS is used in Aerospace Engineering (focus on         Astronautical Engineering). The code comprises of packages, conditional statements, loops, methods and user input and allows the user (fictional launch director) to determine if it is safe to launch, as well as the indealistic range of the rocket as predicted by basic projectile motion equations
 ### Developed Using
-This project was developed using the Eclipse IDE. Of course, such as project can be created using and software that suits you.
+This project was developed using the Eclipse IDE. Of course, such a project can be created using any software that suits you.
 * [Eclipse](https://www.eclipse.org/downloads/)
 
 
