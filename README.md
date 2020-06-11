@@ -161,6 +161,7 @@ The main method begins by defining the scanner input for user input. It then ask
 
 ## Usage
 
+The program executes in the console as follows: 
 
 
 
