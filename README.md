@@ -44,10 +44,13 @@ This project was developed using the Eclipse IDE. Of course, such as project can
 
 
 <!-- GETTING STARTED -->
-## Getting Started
+## Basic of CS integration in Astronautical Engineering
 
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
+Computer science is used in all aspects of rockets. Having the ability for computers to make split-second decisions based on pre determined parameters is crucial to the safety and success of the rocket. For example software enables:
+* Precise control of oxidizer and fuel into the combustion chamber
+* Guidance and control of the vehicle including thrust vector control (where the nozel is vectrored to change the direction of the vehicle)
+* Trajectory and orbit calculations and corrections
+* Pretty much anything that can be automated, is, as this reduces error due to human intervention
 
 ### Prerequisites
 
