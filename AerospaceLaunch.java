@@ -1,7 +1,7 @@
 import java.util.*;
 public class AerospaceLaunch {
 	// Abhinav Ramesh
-    // ICS3U0 ISU Artifact
+    	// ICS3U0 ISU Artifact
 	// Primitive launch go no-go calculator. User-inputed weather/climate parameters goes through methods and program will tell if it is safe to launch or not
 	// June 12, 2020
 	
