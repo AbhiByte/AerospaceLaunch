@@ -22,9 +22,7 @@
 
 * [About the Project](#about-the-project)
   * [Developed Using](#developed-using)
-* [Getting Started](#getting-started)
-  * [Prerequisites](#prerequisites)
-  * [Installation](#installation)
+* [Basics of CS integration in Astronautical Engineering](#basics-of-cs-integration-in-astronautical-engineering)
 * [Usage](#usage)
 * [Roadmap](#roadmap)
 * [Contributing](#contributing)
@@ -44,7 +42,7 @@ This project was developed using the Eclipse IDE. Of course, such as project can
 
 
 <!-- GETTING STARTED -->
-## Basic of CS integration in Astronautical Engineering
+## Basics of CS integration in Astronautical Engineering
 
 Computer science is used in all aspects of rockets. Having the ability for computers to make split-second decisions based on pre determined parameters is crucial to the safety and success of the rocket. For example software enables:
 * Precise control of oxidizer and fuel into the combustion chamber
