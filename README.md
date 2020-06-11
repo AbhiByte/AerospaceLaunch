@@ -23,6 +23,8 @@
 * [About the Project](#about-the-project)
   * [Developed Using](#developed-using)
 * [Basics of CS integration in Astronautical Engineering](#basics-of-cs-integration-in-astronautical-engineering)
+* [The Software](#the-software)
+  * [Class Methods](#class-methods)
 * [Usage](#usage)
 * [Roadmap](#roadmap)
 * [Contributing](#contributing)
@@ -52,7 +54,7 @@ Computer science is used in all aspects of rockets. Having the ability for compu
 
 ## The Software
 
-### CLass Methods
+### Class Methods
 
 The launch parameter class methods allow the user to input mulitiple weather parameters into the system
 
