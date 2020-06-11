@@ -2,7 +2,7 @@
   <h3 align="center">Launch GO NO-GO Procedure + Projectile Displacement Calculator</h3>
 
   <p align="center">
-    ICS3U0 ISU Final Artifact!
+    ICS3U0 ISU Final Artifact - Abhinav Ramesh
     <br />
     <a href=""><strong></strong></a>
     <br />
@@ -146,7 +146,7 @@ NOTE: The first class method is the welcome method. This contains print statemen
 The following class methods contain parameters for wind, wind shear, cloud thickness and the distance to the cumulus clouds. These are just some of the parameters that engineers would look at before commiting to launch. Launching in bad weather is bad, so automatically pulling data from NOAA in the real world, would be tremedously usefull in having an up-to-date weather catalog
 
 The trajectory class method allows the user to calculate the range of the projectile (rocket). Of course, this is heavily simplified, but serves as a demo to the type of software that is implemented in rockets
-
+```java
 	public static double finalDisplacement (double velAtTop, double acceleration, double angle, double heightAtTop) {
 		double Viy = Math.sin(angle * (Math.PI / 180)) * velAtTop;
 		double time = (-1*Viy + Math.sqrt(Math.pow(Viy, 2)  - (4*0.5*acceleration*heightAtTop)))/(-1*acceleration);
@@ -155,6 +155,7 @@ The trajectory class method allows the user to calculate the range of the projec
 		
 		System.out.println("The displacement of the rocket from the launch site is: " + Math.round(displacementX) + " meters");
 		return displacementX;
+```
 This class method uses a basic projectile motion formula to solve for time, then calculates total displacement in the x axis. Time is calculated using the quadratic formula while Vx and Viy are calculated by breaking the vector "velAtTop" into its x and y components	
 ### Main Method
 The main method is the heart of the program. This is where user input is taken, variables are assinged to those inputs and the class methods are called and ran
