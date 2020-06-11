@@ -151,14 +151,13 @@ The trajectory class method allows the user to calculate the range of the projec
 		
 		System.out.println("The displacement of the rocket from the launch site is: " + Math.round(displacementX) + " meters");
 		return displacementX;
-This class method uses a basic projectile motion formula to solve for time, then calculates total displacement in the x axis. Time is caculated using the quadratic formula while Vx and Viy are calculated by breaking the vector "velAtTop" into its x and y components	
+This class method uses a basic projectile motion formula to solve for time, then calculates total displacement in the x axis. Time is calculated using the quadratic formula while Vx and Viy are calculated by breaking the vector "velAtTop" into its x and y components	
+### Main Method
+The main method is the heart of the program. This is where user input is taken, variables are assinged to those inputs and the class methods are called and ran
 
-<!-- USAGE EXAMPLES -->
 ## Usage
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
 
-_For more examples, please refer to the [Documentation](https://example.com)_
 
 
 
