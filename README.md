@@ -26,7 +26,7 @@
 * [The Software](#the-software)
   * [Class Methods](#class-methods)
   * [Main Method](#main-method)
-* [Usage](#usage)
+* [Usage and Execution](#usage-and-execution)
 * [Roadmap](#roadmap)
 * [Contributing](#contributing)
 * [License](#license)
@@ -160,7 +160,7 @@ The main method is the heart of the program. This is where user input is taken, 
 
 The main method begins by defining the scanner input for user input. It then asks for specific user input for each of the class method parameters and assigns them to variables. Finally it calls on the class methods to be executed
 
-## Usage
+## Usage and Execution
 
 The program executes in the console as follows: 
 
