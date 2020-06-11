@@ -57,7 +57,8 @@ Computer science is used in all aspects of rockets. Having the ability for compu
 ### CLass Methods
 
 The launch parameter class methods allow the user to input mulitiple weather parameters into the system
-public static void welcome() {
+
+	public static void welcome() {
 
 		//Code for welcome message and explanation of program to user
 		System.out.println("This is an official launch go no-go calculator");
@@ -125,7 +126,19 @@ public static void welcome() {
 		return cumulusDist;
 	}
 	public static String finalCheck(String finalEval) {
+		if (finalEval.contentEquals("yes")) {
+			System.out.println("Continue on to trajectory calculator...");
+		}
+		else if (finalEval.contentEquals("no")) {
+			System.out.println("Conditions not met! NOT FO FOR LAUNCH");
+		}
+		else {
+			System.out.println("Invalid data input...");
+		}
+		return finalEval;
+	}
 
+		
 
 <!-- USAGE EXAMPLES -->
 ## Usage
