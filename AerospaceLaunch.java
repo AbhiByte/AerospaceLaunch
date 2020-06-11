@@ -73,6 +73,7 @@ public class AerospaceLaunch {
 		System.out.println("Lets go!");
 	}//welcome
 	public static void sleep() {
+		//code for delaying execution of program
 		try {
 		    Thread.sleep(2000);
 		} catch (InterruptedException ie) {
