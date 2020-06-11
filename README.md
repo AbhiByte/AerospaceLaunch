@@ -137,8 +137,21 @@ The launch parameter class methods allow the user to input mulitiple weather par
 		}
 		return finalEval;
 	}
+NOTE: The first class method is the welcome method. This contains print statements to introduce the user to the program and tell the user what the software does. The second class method is code to delay the execution of the program
 
+The following class methods contain parameters for wind, wind shear, cloud thickness and the distance to the cumulus clouds. These are just some of the parameters that engineers would look at before commiting to launch. Launching in bad weather is bad, so automatically pulling data from NOAA in the real world, would be tremedously usefull in having an up-to-date weather catalog
+
+The trajectory class method allows the user to calculate the range of the projectile (rocket). Of course, this is heavily simplified, but serves as a demo to the type of software that is implemented in rockets
+
+	public static double finalDisplacement (double velAtTop, double acceleration, double angle, double heightAtTop) {
+		double Viy = Math.sin(angle * (Math.PI / 180)) * velAtTop;
+		double time = (-1*Viy + Math.sqrt(Math.pow(Viy, 2)  - (4*0.5*acceleration*heightAtTop)))/(-1*acceleration);
+		double Vx = Math.cos(angle *(Math.PI / 180)) * velAtTop;
+		double displacementX = Vx * time * 2;
 		
+		System.out.println("The displacement of the rocket from the launch site is: " + Math.round(displacementX) + " meters");
+		return displacementX;
+This class method uses a basic projectile motion formula to solve for time, then calculates total displacement in the x axis. Time is caculated using the quadratic formula while Vx and Viy are calculated by breaking the vector "velAtTop" into its x and y components	
 
 <!-- USAGE EXAMPLES -->
 ## Usage
