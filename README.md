@@ -192,17 +192,9 @@ Project Link: [https://github.com/AbhiByte/ICS3U0-ISU-Artifact](https://github.c
 
 
 ## References
-* [GitHub Emoji Cheat Sheet](https://www.webpagefx.com/tools/emoji-cheat-sheet)
-* [Img Shields](https://shields.io)
-* [Choose an Open Source License](https://choosealicense.com)
-* [GitHub Pages](https://pages.github.com)
-* [Animate.css](https://daneden.github.io/animate.css)
-* [Loaders.css](https://connoratherton.com/loaders)
-* [Slick Carousel](https://kenwheeler.github.io/slick)
-* [Smooth Scroll](https://github.com/cferdinandi/smooth-scroll)
-* [Sticky Kit](http://leafo.net/sticky-kit)
-* [JVectorMap](http://jvectormap.com)
-* [Font Awesome](https://fontawesome.com)
+* [NASA Launch Weather Criteria for Falcon 9](https://www.nasa.gov/pdf/649911main_051612_falcon9_weather_criteria.pdf)
+* [Additional Reading on Launch Commit Criteria](https://en.wikipedia.org/wiki/Launch_commit_criteria)
+* [README Format Adapted from othneildrew](https://github.com/othneildrew/Best-README-Template.git)
 
 
 
