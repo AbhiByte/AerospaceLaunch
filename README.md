@@ -52,13 +52,7 @@ Computer science is used in all aspects of rockets. Having the ability for compu
 * Trajectory and orbit calculations and corrections
 * Pretty much anything that can be automated, is, as this reduces error due to human intervention
 
-### Prerequisites
-
-This is an example of how to list things you need to use the software and how to install them.
-* npm
-```sh
-npm install npm@latest -g
-```
+### Class Methods
 
 ### Installation
 
