@@ -25,6 +25,7 @@
 * [Basics of CS integration in Astronautical Engineering](#basics-of-cs-integration-in-astronautical-engineering)
 * [The Software](#the-software)
   * [Class Methods](#class-methods)
+  * [Main Method](#main-method)
 * [Usage](#usage)
 * [Roadmap](#roadmap)
 * [Contributing](#contributing)
