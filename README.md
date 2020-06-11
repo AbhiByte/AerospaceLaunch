@@ -175,7 +175,7 @@ For the real experience, copy the code into an IDE of your choice and run the co
 
 
 
-<!-- CONTRIBUTING -->
+
 ## Final Thoughts
 ICS3U0 was very fun and engaging. The course taught me the basics of java and helped improve my programming and problem solving skills. This code showcases some of the various skills and techniques learned throughout the course
 
@@ -192,8 +192,8 @@ Project Link: [https://github.com/AbhiByte/ICS3U0-ISU-Artifact](https://github.c
 
 
 
-<!-- ACKNOWLEDGEMENTS -->
-## Acknowledgements
+
+## References
 * [GitHub Emoji Cheat Sheet](https://www.webpagefx.com/tools/emoji-cheat-sheet)
 * [Img Shields](https://shields.io)
 * [Choose an Open Source License](https://choosealicense.com)
