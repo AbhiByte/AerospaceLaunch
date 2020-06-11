@@ -59,85 +59,85 @@ The launch parameter class methods allow the user to input mulitiple weather par
 
 ```java
 	 
-	 public static void welcome() {
+ public static void welcome() {
 
-		//Code for welcome message and explanation of program to user
-		System.out.println("This is an official launch go no-go calculator");
-		sleep();
-		System.out.println("The following sequences will present parameters in accordance with S-301B launch weather criteria for the Falcon 9 ");
-		sleep();
-		System.out.println("It is your duty as launch director to accurately input and update data as provided by NOAA");
-		sleep();
-		System.out.println("Lets go!");
-	}//welcome
-	public static void sleep() {
-		try {
-		    Thread.sleep(2000);
-		} catch (InterruptedException ie) {
-		    Thread.currentThread().interrupt();
-		}
-	}//sleep
-	public static double windLaunchpad (double windSpeed) {
-		if (windSpeed < 30)
-		{
-			System.out.println("Wind speed is within the acceptable range");
-		}
-		else if (windSpeed == 30)
-		{
-			System.out.println("Wind speed is acceptable but not prefered. Wait 10 mins and try again.");
-		}
-		else
-		{
-			System.out.println("DO NOT LAUNCH. WAIT 15 MINS AND TRY AGAIN");
-		}
-		return windSpeed;
+	//Code for welcome message and explanation of program to user
+	System.out.println("This is an official launch go no-go calculator");
+	sleep();
+	System.out.println("The following sequences will present parameters in accordance with S-301B launch weather criteria for the Falcon 9 ");
+	sleep();
+	System.out.println("It is your duty as launch director to accurately input and update data as provided by NOAA");
+	sleep();
+	System.out.println("Lets go!");
+}//welcome
+public static void sleep() {
+	try {
+	    Thread.sleep(2000);
+	} catch (InterruptedException ie) {
+	    Thread.currentThread().interrupt();
 	}
-	public static boolean windShear (boolean upperLvlWindShear) {
-		if (upperLvlWindShear == false)
-		{
-			System.out.println("Upper lvl wind shear does not pose threat to launch vehicle. Go for launch.");
-		}
-		else if (upperLvlWindShear == true)
-		{
-			System.out.println("Wind shear is present in the upper atmosphere. WAIT 30 MINS AND TRY AGAIN.");
-		}
-		return upperLvlWindShear;
+}//sleep
+public static double windLaunchpad (double windSpeed) {
+	if (windSpeed < 30)
+	{
+		System.out.println("Wind speed is within the acceptable range");
 	}
-	public static int cloudThickness (int cloudLayer, int temp) {
-		if (cloudLayer < 1400 && temp > 0)
-		{
-			System.out.println("Conditions are go for launch");
-		}
-		else
-		{
-			System.out.println("CONDITIONS NOT MET. DO NOT LAUNCH");
-		}
-		return cloudLayer;
-		
+	else if (windSpeed == 30)
+	{
+		System.out.println("Wind speed is acceptable but not prefered. Wait 10 mins and try again.");
 	}
-	public static double cumulusClouds (double cumulusDist) {
-		if (cumulusDist <= 19)
-		{
-			System.out.println("DO NOT LAUNCH");
-		}
-		else
-		{
-			System.out.println("Condition met. Go for launch.");
-		}
-		return cumulusDist;
+	else
+	{
+		System.out.println("DO NOT LAUNCH. WAIT 15 MINS AND TRY AGAIN");
 	}
-	public static String finalCheck(String finalEval) {
-		if (finalEval.contentEquals("yes")) {
-			System.out.println("Continue on to trajectory calculator...");
-		}
-		else if (finalEval.contentEquals("no")) {
-			System.out.println("Conditions not met! NOT FO FOR LAUNCH");
-		}
-		else {
-			System.out.println("Invalid data input...");
-		}
-		return finalEval;
+	return windSpeed;
+}
+public static boolean windShear (boolean upperLvlWindShear) {
+	if (upperLvlWindShear == false)
+	{
+		System.out.println("Upper lvl wind shear does not pose threat to launch vehicle. Go for launch.");
 	}
+	else if (upperLvlWindShear == true)
+	{
+		System.out.println("Wind shear is present in the upper atmosphere. WAIT 30 MINS AND TRY AGAIN.");
+	}
+	return upperLvlWindShear;
+}
+public static int cloudThickness (int cloudLayer, int temp) {
+	if (cloudLayer < 1400 && temp > 0)
+	{
+		System.out.println("Conditions are go for launch");
+	}
+	else
+	{
+		System.out.println("CONDITIONS NOT MET. DO NOT LAUNCH");
+	}
+	return cloudLayer;
+
+}
+public static double cumulusClouds (double cumulusDist) {
+	if (cumulusDist <= 19)
+	{
+		System.out.println("DO NOT LAUNCH");
+	}
+	else
+	{
+		System.out.println("Condition met. Go for launch.");
+	}
+	return cumulusDist;
+}
+public static String finalCheck(String finalEval) {
+	if (finalEval.contentEquals("yes")) {
+		System.out.println("Continue on to trajectory calculator...");
+	}
+	else if (finalEval.contentEquals("no")) {
+		System.out.println("Conditions not met! NOT FO FOR LAUNCH");
+	}
+	else {
+		System.out.println("Invalid data input...");
+	}
+	return finalEval;
+}
 ```
 NOTE: The first class method is the welcome method. This contains print statements to introduce the user to the program and tell the user what the software does. The second class method is code to delay the execution of the program
 
@@ -145,14 +145,14 @@ The following class methods contain parameters for wind, wind shear, cloud thick
 
 The trajectory class method allows the user to calculate the range of the projectile (rocket). Of course, this is heavily simplified, but serves as a demo to the type of software that is implemented in rockets
 ```java
-	public static double finalDisplacement (double velAtTop, double acceleration, double angle, double heightAtTop) {
-		double Viy = Math.sin(angle * (Math.PI / 180)) * velAtTop;
-		double time = (-1*Viy + Math.sqrt(Math.pow(Viy, 2)  - (4*0.5*acceleration*heightAtTop)))/(-1*acceleration);
-		double Vx = Math.cos(angle *(Math.PI / 180)) * velAtTop;
-		double displacementX = Vx * time * 2;
-		
-		System.out.println("The displacement of the rocket from the launch site is: " + Math.round(displacementX) + " meters");
-		return displacementX;
+public static double finalDisplacement (double velAtTop, double acceleration, double angle, double heightAtTop) {
+	double Viy = Math.sin(angle * (Math.PI / 180)) * velAtTop;
+	double time = (-1*Viy + Math.sqrt(Math.pow(Viy, 2)  - (4*0.5*acceleration*heightAtTop)))/(-1*acceleration);
+	double Vx = Math.cos(angle *(Math.PI / 180)) * velAtTop;
+	double displacementX = Vx * time * 2;
+
+	System.out.println("The displacement of the rocket from the launch site is: " + Math.round(displacementX) + " meters");
+	return displacementX;
 ```
 This class method uses a basic projectile motion formula to solve for time, then calculates total displacement in the x axis. Time is calculated using the quadratic formula while Vx and Viy are calculated by breaking the vector "velAtTop" into its x and y components	
 ### Main Method
