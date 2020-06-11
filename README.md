@@ -4,14 +4,14 @@
   <p align="center">
     ICS3U0 ISU Final Artifact!
     <br />
-    <a href=""><strong>»</strong></a>
+    <a href=""><strong></strong></a>
     <br />
     <br />
-    <a href="https://github.com/othneildrew/Best-README-Template">View Demo</a>
+    <a href=""></a>
     ·
-    <a href="https://github.com/othneildrew/Best-README-Template/issues">Report Bug</a>
+    <a href=""></a>
     ·
-    <a href="https://github.com/othneildrew/Best-README-Template/issues">Request Feature</a>
+    <a href=""></a>
   </p>
 </p>
 
