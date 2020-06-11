@@ -179,14 +179,16 @@ ICS3U0 was very fun and engaging. The course taught me the basics of java and he
 
 Please refer to References section for additional reading and sources
 
-Kindly also view the poster made in conjunction with this project (linked below)
+Kindly also view the infographic made in conjunction with this project (linked below)
 
 
-## Contact and Poster
+## Contact and Infographic
 
 Abhinav Ramesh - [](632918@pdsb.net) 632918@pdsb.net
 
 Project Link: [https://github.com/AbhiByte/ICS3U0-ISU-Artifact](https://github.com/AbhiByte/ICS3U0-ISU-Artifact)
+
+Infographic: [https://create.piktochart.com/output/47262699-my-visual](https://create.piktochart.com/output/47262699-my-visual)
 
 
 
