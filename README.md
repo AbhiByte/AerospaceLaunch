@@ -1,22 +1,8 @@
 
-<!-- PROJECT SHIELDS -->
-<!--
-*** I'm using markdown "reference style" links for readability.
-*** Reference links are enclosed in brackets [ ] instead of parentheses ( ).
-*** See the bottom of this document for the declaration of the reference variables
-*** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
-*** https://www.markdownguide.org/basic-syntax/#reference-style-links
--->
-
-[![LinkedIn][linkedin-shield]][https://www.linkedin.com/in/abhinav-ramesh-03b27016a/]
-
-
-
-
   <h3 align="center">Launch GO NO-GO Procedure + Projectile Displacement Calculator</h3>
 
   <p align="center">
-    An awesome README template to jumpstart your projects!
+    ICS3U0 ISU Final Artifact!
     <br />
     <a href="https://github.com/othneildrew/Best-README-Template"><strong>Explore the docs »</strong></a>
     <br />
