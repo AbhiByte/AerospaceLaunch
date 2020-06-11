@@ -163,7 +163,7 @@ The main method begins by defining the scanner input for user input. It then ask
 
 The program executes in the console as follows: 
 
-
+![Console SS](https://user-images.githubusercontent.com/64025335/84409701-bf117000-abdb-11ea-9f0b-a821a589c0e0.png)
 
 
 
