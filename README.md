@@ -180,25 +180,15 @@ For the real experience, copy the code into an IDE of your choice and run the co
 ICS3U0 was very fun and engaging. The course taught me the basics of java and helped improve my programming and problem solving skills. This code showcases some of the various skills and techniques learned throughout the course
 
 Please refer to References section for additional reading and sources
+
 Kindly also view the poster made in conjunction with this project (linked below)
 
 
+## Contact and Poster
 
+Abhinav Ramesh - [](632918@pdsb.net) 632918@pdsb.net
 
-
-<!-- LICENSE -->
-## License
-
-Distributed under the MIT License. See `LICENSE` for more information.
-
-
-
-<!-- CONTACT -->
-## Contact
-
-Your Name - [@your_twitter](https://twitter.com/your_username) - email@example.com
-
-Project Link: [https://github.com/your_username/repo_name](https://github.com/your_username/repo_name)
+Project Link: [https://github.com/AbhiByte/ICS3U0-ISU-Artifact](https://github.com/AbhiByte/ICS3U0-ISU-Artifact)
 
 
 
