@@ -27,7 +27,7 @@
   * [Class Methods](#class-methods)
   * [Main Method](#main-method)
 * [Usage and Execution](#usage-and-execution)
-* [Roadmap](#roadmap)
+* [Final Thoughts](#final-thoughts)
 * [Contributing](#contributing)
 * [License](#license)
 * [Contact](#contact)
@@ -176,15 +176,13 @@ For the real experience, copy the code into an IDE of your choice and run the co
 
 
 <!-- CONTRIBUTING -->
-## Contributing
+## Final Thoughts
+ICS3U0 was very fun and engaging. The course taught me the basics of java and helped improve my programming and problem solving skills. This code showcases some of the various skills and techniques learned throughout the course
 
-Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+Please refer to References section for additional reading and sources
+Kindly also view the poster made in conjunction with this project (linked below)
 
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
+
 
 
 
