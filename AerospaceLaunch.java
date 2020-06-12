@@ -109,7 +109,7 @@ public class AerospaceLaunch {
 		return upperLvlWindShear;
 	}
 	public static int cloudThickness (int cloudLayer, int temp) {
-		//Asks user for cloud thickness
+		//Asks user for cloud thickness and temp at top of cloud
 		if (cloudLayer < 1400 && temp > 0)
 		{
 			System.out.println("Conditions are go for launch");
@@ -122,7 +122,7 @@ public class AerospaceLaunch {
 		
 	}
 	public static double cumulusClouds (double cumulusDist) {
-		//Asks for distance to cumulus clouds and temp at top of cloud
+		//Asks for distance to cumulus clouds
 		if (cumulusDist <= 19)
 		{
 			System.out.println("DO NOT LAUNCH");
