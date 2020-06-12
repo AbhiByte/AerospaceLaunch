@@ -176,6 +176,7 @@ The program executes in the console as follows:
 ![Console SS](https://user-images.githubusercontent.com/64025335/84409701-bf117000-abdb-11ea-9f0b-a821a589c0e0.png)
 
 Observe how if the inputed parameter exceeds the limtitations set in the method (see full code for details), the user is told that the rocket is NOT go for launch. If however the inputed data is within the acceptable range, then they are told that the rocket is go for launch
+
 For the real experience, copy the code into an IDE of your choice and run the code for yourself. You'll observe how the sleep() method adds a nice flow to the program (instead of it all being printed to the console at once)
 
 
@@ -184,7 +185,7 @@ For the real experience, copy the code into an IDE of your choice and run the co
 ## Final Thoughts
 ICS3U0 was very fun and engaging. The course taught me the basics of java and helped improve my programming and problem solving skills. This code showcases some of the various skills and techniques learned throughout the course
 
-Please refer to References section for additional reading and sources
+Please refer to the References section for additional reading and sources
 
 Kindly also view the infographic made in conjunction with this project (linked below)
 
