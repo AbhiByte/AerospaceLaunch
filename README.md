@@ -71,6 +71,7 @@ The launch parameter class methods allow the user to input mulitiple weather par
 	System.out.println("Lets go!");
 }//welcome
 public static void sleep() {
+//Code for delaying the program execution
 	try {
 	    Thread.sleep(2000);
 	} catch (InterruptedException ie) {
@@ -78,6 +79,7 @@ public static void sleep() {
 	}
 }//sleep
 public static double windLaunchpad (double windSpeed) {
+//Code for determining if wind speed is acceptable
 	if (windSpeed < 30)
 	{
 		System.out.println("Wind speed is within the acceptable range");
@@ -93,6 +95,7 @@ public static double windLaunchpad (double windSpeed) {
 	return windSpeed;
 }
 public static boolean windShear (boolean upperLvlWindShear) {
+//Code for determining is wind shear is present or not
 	if (upperLvlWindShear == false)
 	{
 		System.out.println("Upper lvl wind shear does not pose threat to launch vehicle. Go for launch.");
@@ -104,6 +107,7 @@ public static boolean windShear (boolean upperLvlWindShear) {
 	return upperLvlWindShear;
 }
 public static int cloudThickness (int cloudLayer, int temp) {
+//Code for determining the cloud thickness and temp at top of cloud
 	if (cloudLayer < 1400 && temp > 0)
 	{
 		System.out.println("Conditions are go for launch");
@@ -116,6 +120,7 @@ public static int cloudThickness (int cloudLayer, int temp) {
 
 }
 public static double cumulusClouds (double cumulusDist) {
+//code for determining if cumulus clouds (which could spawn thunderstorms) are present
 	if (cumulusDist <= 19)
 	{
 		System.out.println("DO NOT LAUNCH");
@@ -127,6 +132,7 @@ public static double cumulusClouds (double cumulusDist) {
 	return cumulusDist;
 }
 public static String finalCheck(String finalEval) {
+//Code for final evaluation by launch director if all conditions are met or not
 	if (finalEval.contentEquals("yes")) {
 		System.out.println("Continue on to trajectory calculator...");
 	}
@@ -146,6 +152,7 @@ The following class methods contain parameters for wind, wind shear, cloud thick
 The trajectory class method allows the user to calculate the range of the projectile (rocket). Of course, this is heavily simplified, but serves as a demo to the type of software that is implemented in rockets
 ```java
 public static double finalDisplacement (double velAtTop, double acceleration, double angle, double heightAtTop) {
+//Determines the range of the projectile (rocket) using basic projectil motion equation(s)
 	double Viy = Math.sin(angle * (Math.PI / 180)) * velAtTop;
 	double time = (-1*Viy + Math.sqrt(Math.pow(Viy, 2)  - (4*0.5*acceleration*heightAtTop)))/(-1*acceleration);
 	double Vx = Math.cos(angle *(Math.PI / 180)) * velAtTop;
