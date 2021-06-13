@@ -192,7 +192,7 @@ Kindly also view the infographic made in conjunction with this project (linked b
 
 ## Contact and Infographic
 
-Abhinav Ramesh - [](632918@pdsb.net) 632918@pdsb.net
+Abhinav Ramesh - [](abhinavramesh03@gmail.com) abhinavramesh03@gmail.com
 
 Project Link: [https://github.com/AbhiByte/ICS3U0-ISU-Artifact](https://github.com/AbhiByte/ICS3U0-ISU-Artifact)
 
